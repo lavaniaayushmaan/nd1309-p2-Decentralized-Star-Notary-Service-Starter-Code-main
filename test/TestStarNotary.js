@@ -88,7 +88,7 @@ it("can add the star name and star symbol properly", async () => {
   let starId = 6;
   await instance.createStar("Awesome star", starId, { from: user1 });
   assert.equal(await instance.name(), "Ayushmaan");
-  assert.equal(await instance.symbol(), "AYU");
+  assert.equal(await instance.symbol(), "AYUTARA");
 });
 
 it("lets 2 users exchange stars", async () => {
